@@ -1,0 +1,17 @@
+#Ignorer tous les fichiers .o .pyi .class
+*.o
+*.pyi
+*.class
+*.txt
+
+#Exception : on ne veut pas ignorer un fichier particulier :
+!history_local.txt
+
+#Ignorer tout le contenu du répertoire bin /
+bin/
+
+#Ignorer le fichier test.txt dans la racine du projet
+/test.txt
+
+#Ignorer tous les fichiers .txt dans tous les sous-répertoires :
+doc/**/*.txt

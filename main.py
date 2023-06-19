@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print("Starting point")
+print("Starting point ; New version")

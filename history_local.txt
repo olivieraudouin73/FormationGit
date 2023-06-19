@@ -1,0 +1,61 @@
+    1  mkdir FormationGit
+    2  cd FormationGit/
+    3  git init
+    4  git status
+    5  touch main.py
+    6  git status
+    7  git add main.py 
+    8  git status
+    9  chmod +x main.py
+   10  git status
+   11  git add main.py 
+   12  git status
+   13  git commit -m "Ajout main.py"
+   14  git status
+   15  git config --global --edit
+   16  git status
+   17  vi main.py 
+   18  git status
+   19  git add main.py 
+   20  git status
+   21  git commit -m "Ajout message init dans main.py"
+   22  git status
+   23  vi main.py 
+   24  git status
+   25  git diff
+   26  git difftool
+   27  git config --global diff.tool meld
+   28  git difftool 
+   29  git config --global difftool.prompt false
+   30  history
+   31  history > ~/history_20230619_1130
+   32  git difftool
+   33  git status
+   34  git diff --cached
+   35  git difftool --cached
+   36  git add main.py 
+   37  git status
+   38  git diff --cached
+   39  git difftool --cached
+   40  export EDITOR=vi
+   41  git commit
+   42  git statud
+   43  git status
+   44  git diff
+   45  echo test >> main.py
+   46  git status
+   47  git diff
+   48  vi main.py 
+   49  git checkout main.py
+   50  vi main.py 
+   51  echo test >> main.py
+   52  git status
+   53  git add main.py 
+   54  git diff --cached 
+   55  git reset main.py
+   56  git diff --cached 
+   57  git checkout main.py
+   58  git status
+   59  history 
+   60  history > ~/history_20230619_1200
+   61  history > history_local

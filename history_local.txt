@@ -59,3 +59,46 @@
    59  history 
    60  history > ~/history_20230619_1200
    61  history > history_local
+   62  ls
+   63  git status
+   64  vi gitignore
+   65  git status
+   66  mv gitignore .gitignore
+   67  git status
+   68  mv history_local history_local.txt
+   69  git status
+   70  gvim .gitignore 
+   71  git status
+   72  cd ..
+   73  mkdir ExamplesGit
+   74  cd ExamplesGit/
+   75  git clone https://github.com/toptal/gitignore/blob/master/templates/Fortran.gitignore
+   76  ls
+   77  git clone https://github.com/rajatdiptabiswas/snake-pygame.git
+   78  ll
+   79  cd snake-pygame/
+   80  ll
+   81  ls -al
+   82  cd ../
+   83  cd ..
+   84  cd FormationGit/
+   85  git status
+   86  git add history_local.txt 
+   87  git status
+   88  git commit -m "ajout historique"
+   89  git status
+   90  git remote -v
+   91  git remote add origin git@github.com:olivieraudouin73/FormationGit.git
+   92  git remote -v
+   93  git push origin master
+   94  ssh-keygen -t rsa -b 4096 -C "audouino@orange.fr"
+   95  ls -al ~/.ssh
+   96  vi ~/.ssh/id_rsa.pub 
+   97  eval $(ssh-agent -s)
+   98  ssh-add ~/.ssh/id_rsa
+   99  cat ~/.ssh/id_rsa.pub 
+  100  pwd
+  101  clear
+  102  git push -u origin master
+  103  git log --all --oneline --graph
+  104  history > history_20230619_1500
